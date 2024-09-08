@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display', serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#Home{
+    width: 100%;
+    height: 900px;
+    background-image: url('https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+#logo{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(46, 45, 45, 0.236);
+    /* margin-left: 100px; */
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+#ul1{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listitem{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+}
+.listitem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.listitem a:hover{
+    color: rgb(239, 74, 9);
+}
+#home{
+    padding-top: 100px;
+}
+#home h1{
+    color: white;
+    font-size: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#home h2{
+    color: white;
+    font-size: 50px;
+    margin-left: 300px;
+}
+#home img{
+    width: 400px;
+    height: 400px;
+    margin-left:950px ;
+}
+#buttons{
+    float: right;
+    margin-right: 80px;
+    margin-top: 50px; 
+}
+#buttons button{
+    background-color: white;
+    font-size: 20px;
+    padding: 20px 40px;
+    margin: 20px;
+}
+#buttons a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+#buttons button:hover{
+    background-color: rgba(205, 195, 195, 0.416);
+}
+
+/* styling for the Menu section */
+#menu {
+    background-color: #000; 
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #menu h1 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  
+  .menu-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 0 50px;
+  }
+  
+  
+  .menu-item {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .menu-item h2 {
+    color: white;
+    font-size: 24px;
+    margin: 15px 0 10px;
+  }
+  
+  .menu-item p {
+    color: #ccc;
+    font-size: 16px;
+  }
+
+/* Customer Review Section */
+#reviews {
+    background-color: #000; 
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #customer-reviews h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: white; 
+    margin-bottom: 30px;
+  }
+  
+ 
+  .review-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 40px;
+    padding: 0 50px;
+  }
+  
+ 
+  .review {
+    background-color: #333; 
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .review h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: white; 
+    margin-bottom: 10px;
+  }
+  
+  .review p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ccc; 
+    margin-bottom: 20px;
+  }
+  
+ 
+  .rating i {
+    color: #FFD700; 
+  }
+  
+  
+  .review:hover {
+    transform: translateY(-5px); 
+  }
+
+
+/* About Us Section */
+#about-us {
+    background-color: #000; 
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  #about-us h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  #about-us p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #ccc; 
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+  }
+  
+  
+  .team-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    padding: 0 50px;
+  }
+  
+  .card {
+    background-color: #333; 
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .card h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ccc; 
+  }
+  
+  
+  .card:hover {
+    transform: translateY(-10px); 
+  }
+  
+  
+  @media (max-width: 992px) {
+    .team-cards {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .team-cards {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+
+/* Contact Us Section */
+#contact-us {
+  background-color: #000; /* Black background */
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+}
+
+#contact-us h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#contact-us p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #ccc;
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+}
+
+.contact-details p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #ccc;
+  margin: 10px 0;
+}
+
+
+.social-media h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.social-media .icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: white;
+  transition: transform 0.3s ease;
+  animation: bounce 1.5s infinite;
+}
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-8px);
+  }
+}
+
+
+.social-icon:hover {
+  color: #FFD700; 
+  transform: scale(1.2); 
+}
+
+
+@media (max-width: 768px) {
+  .social-media .icons {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+  
+  
+  
+  
